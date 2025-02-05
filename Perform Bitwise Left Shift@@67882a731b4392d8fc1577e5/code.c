@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main() {
-    int x,i,mask;
+    int x,i;
     scanf("%d %d",&a,&i);
-    mask=1<<(i-1);
-    x=x|mask;
+    x=x<<i;
     printf("%d",x);
     return 0;
 }
